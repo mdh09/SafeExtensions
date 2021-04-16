@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>mharvey.SafeExtensions</PackageId>
+        <Author>Michael Harvey</Author>
+        <Company>Michael Harvey</Company>
+        <Description>Essentially just a wrapper around .Any() and .Trim(). The wrapper checks for null before doing anything.  Will gradually add more as I think of them.  Am always willing to add suggested extensions.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>SafeAny, SafeTrim, Safe, Extensions, SafeExtensions</PackageTags>
+        <Configurations>Release</Configurations>
+        <Version>1.0.2</Version>
+         <RepositoryUrl>https://github.com/mdh09/SafeExtensions</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType> 
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
+</Project>
